@@ -7,9 +7,9 @@ import '../Screen/home/view/HomeScreen.dart';
 
 class AppRoutes {
   static Map<String, Widget Function(BuildContext)> routes = {
-    // '/':(context)=>SplashScreen(),
-    // '/second':(context)=>SecondPage(),
-    '/':(context)=>HomeScreen(),
+    '/':(context)=>SplashScreen(),
+     '/second':(context)=>SecondPage(),
+    '/home':(context)=>HomeScreen(),
     '/hindi':(context)=>HindiScreen(),
   };
 }

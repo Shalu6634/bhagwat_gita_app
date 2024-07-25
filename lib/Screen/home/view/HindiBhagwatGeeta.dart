@@ -15,10 +15,10 @@ class HindiScreen extends StatelessWidget {
 
     return Scaffold(
       body: ListView.builder(
-        itemCount: geetaProviderTrue.geetaModal.verses.length,
+        itemCount: geetaProviderTrue.geetaModalList.length,
         itemBuilder: (context, index) => Card(
           child: ListTile(
-            title: Text(geetaProviderTrue.geetaModal.verses[index].VerseNumber.toString()),
+            title: Text(geetaProviderTrue.geetaModalList[index].chapterName.toString()),
           ),
         ),
       ),

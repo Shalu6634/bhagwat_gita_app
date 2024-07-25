@@ -1,16 +1,19 @@
-
 import 'package:flutter/material.dart';
 
 class GeetaModal {
   late int Chapter;
   late List<Verse> verses;
+  late ChapterName chapterName;
 
-  GeetaModal({required this.Chapter, required this.verses});
+  GeetaModal(
+      {required this.Chapter, required this.verses, required this.chapterName});
 
   factory GeetaModal.fromJson(Map m1) {
     return GeetaModal(
-        Chapter: m1['Chapter'],
-        verses: (m1['verses'] as List).map((e) => Verse.fromJson(e)).toList());
+      Chapter: m1['Chapter'],
+      verses: (m1['verses'] as List).map((e) => Verse.fromJson(e)).toList(),
+      chapterName: ChapterName.fromJson(m1['ChapterName']),
+    );
   }
 }
 

@@ -16,9 +16,10 @@ class SplashScreen extends StatelessWidget {
               height: 150,
               width: 150,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
+                borderRadius: BorderRadius.circular(20),
                 color: Colors.black,
                 image: DecorationImage(
+                  fit: BoxFit.cover,
                   image : AssetImage('assets/img/geeta.webp'),
                 )
               ),
