@@ -1,5 +1,5 @@
 import 'package:bhagwat_gita_app/Screen/home/provider/Geeta_provider.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -8,7 +8,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
@@ -90,10 +89,9 @@ class HomeScreen extends StatelessWidget {
   }) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: GestureDetector(
-        onTap: () {
-          Navigator.of(context).pushNamed('/hindi');
-        },
+      child: GestureDetector(onTap: (){
+        Navigator.of(context).pushNamed('/geeta');
+      },
         child: Container(
           height: height * 0.1,
           width: width * 0.8,
@@ -150,4 +148,3 @@ List imgList = [
 ];
 
 List textList = ['भागवत गीता', 'गीता सार    ', 'गीता माहात्म्य', 'गीता आरती'];
-

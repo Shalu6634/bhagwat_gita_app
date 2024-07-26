@@ -6,7 +6,7 @@ class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 1), () {
       Navigator.of(context).pushNamed('/second');
     });
     return Scaffold(
@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
               height: 150,
               width: 150,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(30),
                 color: Colors.black,
                 image: DecorationImage(
                   fit: BoxFit.cover,

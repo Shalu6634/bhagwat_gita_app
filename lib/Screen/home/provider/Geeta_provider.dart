@@ -12,10 +12,7 @@ class GeetaProvider extends ChangeNotifier {
     geetaModalList = response
         .map(
           (e) => GeetaModal.fromJson(e),
-        )
-        .toList();
-    ;
-
+        ).toList();
     notifyListeners();
   }
 

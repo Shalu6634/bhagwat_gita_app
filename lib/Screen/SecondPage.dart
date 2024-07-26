@@ -7,23 +7,33 @@ class SecondPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 3), () {
+    double height = MediaQuery.of(context).size.height;
+    double width = MediaQuery.of(context).size.width;
+    Timer(Duration(seconds: 1), () {
       Navigator.of(context).pushNamed('/home');
     });
     return Scaffold(
       backgroundColor: Color(0xfffcc838),
-      body:
-          Center(
-            child: Container(
-              height: 100,
-              width: 100,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage('assets/img/geeta2.png'),
-                ),
+      body: Center(
+        child: Container(
+          height: height * 1,
+          width: width * 1,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              fit: BoxFit.cover,
+              opacity: 0.6,
+              image: AssetImage(
+                'assets/img/splash.jpg',
+              ),
             ),
-                  ),
           ),
+          child: Image.asset(
+            'assets/img/geeta4.png',
+            color: Colors.white,
+            height: height * 0.2,
+          ),
+        ),
+      ),
     );
   }
 }

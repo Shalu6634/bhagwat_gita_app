@@ -11,7 +11,7 @@ class GeetaModal {
   factory GeetaModal.fromJson(Map m1) {
     return GeetaModal(
       Chapter: m1['Chapter'],
-      verses: (m1['verses'] as List).map((e) => Verse.fromJson(e)).toList(),
+      verses: (m1['Verses'] as List).map((e) => Verse.fromJson(e)).toList(),
       chapterName: ChapterName.fromJson(m1['ChapterName']),
     );
   }
@@ -43,7 +43,7 @@ class Verse {
   Verse({required this.VerseNumber, required this.text});
 
   factory Verse.fromJson(Map m1) {
-    return Verse(VerseNumber: m1['VerseNumber'], text: m1['text']);
+    return Verse(VerseNumber: m1['VerseNumber'], text: TextClass.fromJson(m1['Text']));
   }
 }
 
