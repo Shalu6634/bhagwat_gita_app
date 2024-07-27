@@ -1,16 +1,9 @@
-# bhagwat_gita_app
+## Bhagavad Geeta 
+<img src = "https://github.com/user-attachments/assets/d9f4b286-0d12-4966-9ec3-0fa1e2af7881" height = 25%  width = 25%>
+<img src = "https://github.com/user-attachments/assets/d0f18a7f-5c99-47f0-a83f-b57dd1e75262" height = 25%  width = 25%>
+<img src = "https://github.com/user-attachments/assets/76ece7c3-c811-4574-8b87-0074f328bc17" height = 25%  width = 25%>
 
-A new Flutter project.
 
-## Getting Started
+description :-
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- This app brings you the sacred teachings of the Gita in a beautifully designed and intuitive interface, perfect for both newcomers and seasoned devotees. Explore the complete text with verse-by-verse translations and insightful commentaries, listen to soothing audio recitations in both Sanskrit and English, and navigate effortlessly through chapters.
