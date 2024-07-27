@@ -7,6 +7,10 @@
 <img src = "https://github.com/user-attachments/assets/8fc501b8-1456-4650-910a-416ebce1809d" height = 25%  width = 25%>
 <img src = "https://github.com/user-attachments/assets/b4d8fed3-1215-408f-bfc9-d582ffbc1f16" height = 25%  width = 25%>
 
+
+https://github.com/user-attachments/assets/7241f73d-5169-4160-9386-bc57e1778294
+
+
 ## description :-
 
 - This app brings you the sacred teachings of the Gita in a beautifully designed and intuitive interface, perfect for both newcomers and seasoned devotees. Explore the complete text with verse-by-verse translations and insightful commentaries, listen to soothing audio recitations in both Sanskrit and English, and navigate effortlessly through chapters.
