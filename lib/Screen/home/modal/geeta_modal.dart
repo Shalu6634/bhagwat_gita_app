@@ -38,26 +38,26 @@ class ChapterName {
 
 class Verse {
   late int VerseNumber;
-  late TextClass text;
+  late Language text;
 
   Verse({required this.VerseNumber, required this.text});
 
   factory Verse.fromJson(Map m1) {
-    return Verse(VerseNumber: m1['VerseNumber'], text: TextClass.fromJson(m1['Text']));
+    return Verse(VerseNumber: m1['VerseNumber'], text: Language.fromJson(m1['Text']));
   }
 }
 
-class TextClass {
+class Language {
   late String Gujarati, Sanskrit, Hindi, English;
 
-  TextClass(
+  Language(
       {required this.English,
       required this.Gujarati,
       required this.Hindi,
       required this.Sanskrit});
 
-  factory TextClass.fromJson(Map m1) {
-    return TextClass(
+  factory Language.fromJson(Map m1) {
+    return Language(
         English: m1['English'],
         Gujarati: m1['Gujarati'],
         Hindi: m1['Hindi'],

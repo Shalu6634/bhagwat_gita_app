@@ -3,6 +3,8 @@ import 'package:bhagwat_gita_app/Screen/home/provider/Geeta_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'BhagwatGeeta.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -12,7 +14,8 @@ class HomeScreen extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Color(0xfff8e1ae),
-      body: Column(
+      body:
+      Column(
         children: [
           Stack(
             children: [
@@ -90,7 +93,7 @@ class HomeScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: GestureDetector(onTap: (){
-        Navigator.of(context).pushNamed('/geeta');
+    Navigator.of(context).pushNamed('/geeta');
       },
         child: Container(
           height: height * 0.1,

@@ -1,5 +1,5 @@
 import 'package:bhagwat_gita_app/Screen/home/provider/Geeta_provider.dart';
-import 'package:bhagwat_gita_app/Screen/home/provider/geetaDetailProvider.dart';
+import 'package:bhagwat_gita_app/Screen/home/detail/provider/geetaDetailProvider.dart';
 import 'package:bhagwat_gita_app/utils/Routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
